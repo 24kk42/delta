@@ -1,0 +1,18 @@
+.ul {
+  display: grid;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.info {
+  height: 30px;
+  border-radius: 60px;
+  background-color: #66088b;
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  margin-top: 0.2cm;
+  text-align: center;
+  border:#c40de4;
+  width: 80%;
+  margin-left: 0.8cm;
+}

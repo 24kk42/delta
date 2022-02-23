@@ -32,7 +32,6 @@ function LoginPage() {
             setIsLoading(true);
           } else {
             context.login(data);
-            console.log(data);
             if (data.roleName === "SYSADMIN") {
               navigate("/admin");
             } else if (data.roleName === "MANAGER") {

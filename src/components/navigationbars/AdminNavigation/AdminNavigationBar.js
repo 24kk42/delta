@@ -17,12 +17,26 @@ function AdminNavigationBar() {
     <header className={classes.header}>
       <div className={classes.logo}>Delta School</div>
       <nav>
-        <ul>
-          <li className={classes.actions}>
-            <Link to="/" onClick={Logout}>Logout</Link>
-          </li>
+        <ul className={classes.ul}>
           <li className={classes.actions}>
             <Link to="/admin">Admin</Link>
+          </li>
+          <li className={classes.actions}>
+            <Link to="/users">Users</Link>
+          </li>
+          <li className={classes.actions}>
+            <Link to="/teachers">Teachers</Link>
+          </li>
+          <li className={classes.actions}>
+            <Link to="/students">Students</Link>
+          </li>
+          <li className={classes.actions}>
+            <Link to="/lessons">Lessons</Link>
+          </li>
+          <li className={classes.actions}>
+            <Link to="/" onClick={Logout}>
+              Logout
+            </Link>
           </li>
         </ul>
       </nav>
