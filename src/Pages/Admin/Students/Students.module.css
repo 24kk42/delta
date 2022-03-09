@@ -1,0 +1,19 @@
+.button {
+    display: block;
+    margin: auto;
+    justify-content: "center";
+    align-items: "center";
+    background-color: #66088b;
+    color: white;
+    border-radius: 30px;
+    margin-top: 2cm;
+    position: relative;
+    height: 3cm;
+    width: 200px;
+    border: 1px solid #66088b;
+  }
+  
+  .button:hover {
+    background: #a812e4;
+  }
+  

@@ -12,10 +12,13 @@ function AdminNavigationBar() {
     content.logout();
     navigation("/");
   }
+  function mainLogoCliclHandler() {
+    navigation("/admin");
+  }
 
   return (
     <header className={classes.header}>
-      <div className={classes.logo}>Delta School</div>
+      <div onClick={mainLogoCliclHandler} className={classes.logo}>Delta School</div>
       <nav>
         <ul className={classes.ul}>
           <li className={classes.actions}>

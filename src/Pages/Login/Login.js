@@ -35,11 +35,11 @@ function LoginPage() {
             if (data.roleName === "SYSADMIN") {
               navigate("/admin");
             } else if (data.roleName === "MANAGER") {
-              navigate("/admin");
+              navigate("/manager");
             } else if (data.roleName === "TEACHER") {
-              navigate("/admin");
+              navigate("/teacher");
             } else if (data.roleName === "STUDENT") {
-              navigate("/admin");
+              navigate("/student");
             }
           }
         }

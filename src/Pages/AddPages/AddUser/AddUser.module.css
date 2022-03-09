@@ -1,0 +1,51 @@
+.form {
+  padding: 1rem;
+  border-radius: 30px;
+  border: #66088b;
+  width: 400px;
+  height: 10px;
+  margin : auto;
+}
+
+.control {
+  margin-bottom: 0.5rem;
+}
+
+.control label {
+  
+  text-align: center;
+  display: block;
+  font-weight: bolder;
+  margin-bottom: 1rem;
+}
+.control input {
+  align-self: flex-end;
+  margin: auto;
+  display: block;
+  font: inherit;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  padding: 0.25rem;
+  width: 70%;
+}
+
+.button {
+  display: block;
+  margin: auto;
+  width: 80px;
+  height: 50px;
+  border-radius: 60px;
+  background-color: #66088b;
+  color: white;
+  font-size: 15px;
+  margin-top: 1rem;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+}
+
+.button:hover,
+.button:active {
+  background-color: #8a2baf;
+  border-color: #8a2baf;
+}

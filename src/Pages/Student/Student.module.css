@@ -1,0 +1,21 @@
+.context{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-direction: row;
+    flex-shrink: 1;
+    padding-top: 2px;
+}
+
+
+.button{
+    display: flex;
+    background-color: #66088b;
+    border-radius: 30px;
+    text-align: center;
+    margin-top: 0.2cm;
+    padding-top: 10px;
+    height: 1cm;
+    justify-content: center;
+    width: 100px;
+}

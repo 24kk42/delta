@@ -1,0 +1,65 @@
+.App{
+  justify-content: center;
+  align-items: center;
+}
+
+table{
+  margin-top: 10px;
+  width: 1535.7px;
+  text-align: center;
+
+}
+
+th{
+  height: 55px;
+  border-radius: 30px;
+  background-color: #66088b;
+  color: white;
+  font-size: 15px;
+  text-align: center;
+  width: 10%;
+}
+
+td{
+  text-align: center;
+}
+
+td button{
+
+  background-color: #66088b;
+  color:  white;
+  border-radius: 30px;
+  text-align: center;
+  
+  height: 1cm;
+  justify-content: center;
+  width: 70px;
+  border: 1px solid #66088b;
+}
+
+
+
+/*.App {
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.App table {
+  margin-top: 10px;
+  justify-content: center;
+  width: 1535.7px;
+  height: 10px;
+}
+
+.App th {
+  height: 55px;
+  border-radius: 30px;
+  background-color: #66088b;
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  
+}
+
+.App td {
+  text-align: center;
+}*/

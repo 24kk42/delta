@@ -1,5 +1,6 @@
 import { useState, createContext } from "react";
 
+
 const UserContext = createContext({
   user: {
     firstName: "",
@@ -10,11 +11,18 @@ const UserContext = createContext({
     token: "",
     username: "",
   },
+  deleteId: null,
+  lessonId: null,
+  setLessonId: (lessonToAdd) => {},
+  setDeleteId: (idToDelete) => {},
+  addLessonId: null,
   login: (user) => {},
   logout: () => {},
 });
 
 export function UserContextProvider(props) {
+  const [lessonId, setLessonId] = useState();
+  const [deleteId,setDeleteId] = useState();
   const [user, setUser] = useState({
     firstName: "",
     id: null,
@@ -27,6 +35,10 @@ export function UserContextProvider(props) {
 
   const context = {
     user: user,
+    deleteId: deleteId,
+    lessonId: lessonId,
+    setDeleteId: setDeleteId,
+    setLessonId: setLessonId,
     login: login,
     logout: logout,
   };
@@ -38,7 +50,6 @@ export function UserContextProvider(props) {
   function logout() {
     setUser(null);
   }
-
   return (
     <UserContext.Provider value={context}>
       {props.children}
